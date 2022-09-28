@@ -109,14 +109,17 @@
                 </label>
               </div>
               <label class="form-policy">
-                Погоджуюся з розсилкою та приймаю
-                <a class="agreement" href="#">Умови договору</a>
                 <input
                   class="checkbox"
                   type="checkbox"
                   name="policy"
                   value="policy"
                 />
+                <svg class="check-svg" width="16" height="15">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+                Погоджуюся з розсилкою та приймаю
+                <a class="agreement" href="#">Умови договору</a>
               </label>
               <button class="modal-button" type="submit">Відправити</button>
             </form>
@@ -621,7 +624,12 @@
                 placeholder="E-mail"
               />
             </div>
-            <button class="subscribe-button" type="submit">Підписатися</button>
+            <button class="subscribe-button" type="submit">
+              Підписатися
+              <svg class="icon-send" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
           </div>
         </form>
       </div>
