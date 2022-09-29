@@ -812,6 +812,7 @@ textarea {
 .form-item:hover textarea,
 .form-item:focus textarea {
   border-color: var(--nav-text-color);
+  outline-color: var(--nav-text-color);
 }
 
 .form-item input::placeholder {
@@ -902,6 +903,11 @@ textarea {
   border: 2px solid var(--main-text-color);
   border-radius: 4px;
   fill: var(--hero-text-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.check-svg:hover {
+  fill: var(--main-text-color);
 }
 
 .agreement {
