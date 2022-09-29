@@ -795,6 +795,10 @@ textarea {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form-input:focus {
+  border-color: var(--nav-text-color);
+}
+
 .form-input:focus ~ .form-icon,
 .form-input:hover ~ .form-icon {
   fill: var(--nav-text-color);
@@ -814,7 +818,7 @@ textarea {
 }
 
 .tips:focus {
-  border-color: tomato;
+  border-color: var(--nav-text-color);
 }
 
 .form-item input::placeholder {
