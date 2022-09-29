@@ -809,9 +809,11 @@ textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
-.form-item:hover textarea,
-.form-item:focus textarea {
+.form-item:hover textarea {
   border-color: var(--nav-text-color);
+}
+
+.form-item:focus textarea {
   outline-color: var(--nav-text-color);
 }
 
