@@ -273,6 +273,10 @@ textarea {
   fill: var(--nav-text-color);
 }
 
+.button-close:focus {
+  border-color: var(--nav-text-color);
+}
+
 .button-main:hover,
 .button-main:focus {
   background-color: var(--button-active-background);
