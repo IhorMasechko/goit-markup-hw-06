@@ -814,7 +814,7 @@ textarea {
 }
 
 .form-item:focus textarea {
-  outline-color: var(--nav-text-color);
+  outline-color: tomato;
 }
 
 .form-item input::placeholder {
