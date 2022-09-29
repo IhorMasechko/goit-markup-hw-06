@@ -813,8 +813,8 @@ textarea {
   border-color: var(--nav-text-color);
 }
 
-.form-item:focus textarea {
-  outline-color: tomato;
+.tips:focus {
+  border-color: tomato;
 }
 
 .form-item input::placeholder {
